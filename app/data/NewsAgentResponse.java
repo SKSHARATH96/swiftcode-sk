@@ -1,6 +1,6 @@
 package data;
 
 public class NewsAgentResponse {
-    public string keyword;
-    public string intent;
+    public String keyword;
+    public String intent;
 }
