@@ -1,1 +1,6 @@
-
+#message-pane {
+   background: url(https://www.techspot.com/articles-info/1371/images/2017-04-06-image-4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right bottom
+}
