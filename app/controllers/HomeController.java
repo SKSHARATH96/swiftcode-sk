@@ -10,8 +10,8 @@ import play.mvc.LegacyWebSocket;
 import play.mvc.Result;
 import play.mvc.Results;
 import play.mvc.WebSocket;
-import views.html.chat;
-import views.html.login;
+//import views.html.chat;
+//import views.html.login;
 
 import javax.inject.Inject;
 import java.util.Objects;
