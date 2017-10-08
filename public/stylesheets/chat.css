@@ -1,6 +1,19 @@
 #message-pane {
-   background: url(https://www.techspot.com/articles-info/1371/images/2017-04-06-image-4.jpg);
+   background: url(https://assets.materialup.com/uploads/9a462a9b-2856-446a-97af-717c10fe59f9/preview.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: right bottom
 }
+.message-card {
+max-width: 75%;
+border-radius: 10px;
+padding: 10px;
+font-size: 18px;
+}
+
+.message-time{
+margin-top: 4px;
+color: #666666
+font-size: 10px;
+}
+
