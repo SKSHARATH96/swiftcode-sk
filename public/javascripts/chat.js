@@ -1,4 +1,14 @@
 var app = angular.module('chatApp', ['ngMaterial']);
+app.config(function ($mdThemingProvider) {
+   $mdThemingProvider.theme('default')
+      .primaryPalette('grey', {
+                 'default': '900', // by default use shade 400 from the pink palette for primary intentions
+                  // use shade A100 for the <code>md-hue-3</code> class
+             })
+             .accentPalette('red', {
+                 'default': 'A700'
+             });
+});
 
 app.controller('chatController', function ($scope, $sce) {
 $scope.messages = [];
