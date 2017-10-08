@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
 #message-pane {
    background: url(https://assets.materialup.com/uploads/9a462a9b-2856-446a-97af-717c10fe59f9/preview.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: right bottom
+   color: '#f44242';
 }
 .message-card {
 max-width: 75%;
 border-radius: 10px;
 padding: 10px;
+font-family: 'Dosis';
 font-size: 18px;
+font-weight : regular;
 }
 
 .message-time{
 margin-top: 4px;
-color: #666666
+color: #ffffff;
 font-size: 10px;
+}
+#form-card
+{margin:0px;
 }
 
